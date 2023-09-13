@@ -1,0 +1,32 @@
+.adventeges {
+	padding: 0px 304px 128px 262px;
+	&__title {
+		width: 827px;
+		font-size: 56px;
+		font-weight: 900;
+		line-height: 100%; /* 56px */
+		letter-spacing: -1.12px;
+		margin-bottom: 39px;
+	}
+}
+
+.content-adventeges {
+	&__wrapper {
+		display: grid;
+		row-gap: 61px;
+		column-gap: 76px;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	&__item {
+		display: flex;
+		flex-direction: column;
+	}
+	&__image {
+		padding-bottom: 10px;
+	}
+	&__text {
+		line-height: 120%; /* 28.8px */
+		letter-spacing: 0.25px;
+	}
+}

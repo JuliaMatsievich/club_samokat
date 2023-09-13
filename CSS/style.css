@@ -17,7 +17,17 @@
   font-weight: 400;
 }
 * {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
   box-sizing: border-box;
+}
+
+nav, footer, header, aside {
+  display: block;
 }
 
 body {
@@ -28,10 +38,19 @@ body {
   font-size: 24px;
 }
 
+input, button, textarea {
+  font-family: inherit;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
 }
 
 .center {
@@ -54,9 +73,9 @@ body {
 }
 
 .header {
-  height: 804px;
+  height: 801px;
   background: url("../img/fon-gradient-white.png"), url("../img/fon-gradient-color.png");
-  padding: 116.94px 74.63px 124.94px 262px;
+  padding: 124.94px 74.63px 127.94px 262px;
   display: flex;
 }
 .header__content {
@@ -127,4 +146,36 @@ body {
   top: 350px;
   position: absolute;
   filter: brightness(0);
+}
+
+.adventeges {
+  padding: 0px 304px 128px 262px;
+}
+.adventeges__title {
+  width: 827px;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 100%; /* 56px */
+  letter-spacing: -1.12px;
+  margin-bottom: 39px;
+}
+
+.content-adventeges__wrapper {
+  display: grid;
+  row-gap: 61px;
+  -moz-column-gap: 76px;
+       column-gap: 76px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.content-adventeges__item {
+  display: flex;
+  flex-direction: column;
+}
+.content-adventeges__image {
+  padding-bottom: 10px;
+}
+.content-adventeges__text {
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.25px;
 }
