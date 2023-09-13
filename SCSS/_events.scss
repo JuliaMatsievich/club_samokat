@@ -1,0 +1,71 @@
+.events {
+	padding: 0px 222px 128px 249px;
+
+	&__title {
+		font-size: 48px;
+		font-weight: 900;
+		line-height: 100%; /* 48px */
+		letter-spacing: -0.96px;
+		width: 827px;
+		padding-bottom: 35px;
+		padding-left: 12px;
+	}
+	&__text {
+		width: 452px;
+		line-height: 120%; /* 28.8px */
+		letter-spacing: 0.27px;
+		padding-bottom: 66px;
+		padding-left: 12px;
+	}
+	&__images {
+	}
+}
+
+.images {
+	display: flex;
+	flex-wrap: wrap;
+
+	&__item {
+		flex: 0 0 50%;
+		&_1 {
+			position: relative;
+			&::before {
+				content: url("../img/geoloc.png");
+				position: absolute;
+				width: 320px;
+				height: 320px;
+				left: -249px;
+				top: -137px;
+			}
+		}
+		&_2 {
+			margin-top: -212px;
+			position: relative;
+			&::before {
+				content: url("../img/capsul.png");
+				position: absolute;
+				width: 153.843px;
+				height: 78.026px;
+				left: 262px;
+				top: -147px;
+			}
+		}
+		&_3 {
+			margin-left: -15px;
+		}
+		&_4 {
+			margin-top: -212px;
+			position: relative;
+			&::before {
+				content: url("../img/cup.png");
+				position: absolute;
+				width: 396.065px;
+				height: 494.466px;
+				left: 119px;
+				top: 143px;
+			}
+		}
+		& img {
+		}
+	}
+}
