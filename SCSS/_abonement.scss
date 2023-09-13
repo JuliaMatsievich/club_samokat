@@ -1,0 +1,45 @@
+.abonement {
+	// padding-left: 260px;
+	// padding-right: 321px;
+	display: flex;
+
+	&__content {
+		width: 486px;
+		padding-left: 68px;
+	}
+	&__title {
+		font-size: 48px;
+		font-weight: 900;
+		line-height: 100%; /* 48px */
+		letter-spacing: -0.96px;
+		padding-bottom: 35px;
+	}
+	&__text {
+		line-height: 120%; /* 28.8px */
+		letter-spacing: 0.2px;
+	}
+	&__image {
+		padding-left: 127px;
+		margin-top: -10px;
+		position: relative;
+		z-index: 0;
+		&::before{
+			content: url("../img/Ellipse-abonement.png");
+			position: absolute;
+			width: 412.783px;
+			height: 369.042px;
+			left: 10px;
+			top: -259px;
+			z-index: -1;
+		}
+		&::after{
+			content: url("../img/plus.png");
+			position: absolute;
+			width: 268.988px;
+			height: 264.987px;
+			left: 52px;
+			top: 64px;
+			z-index: 1;
+		}
+	}
+}
