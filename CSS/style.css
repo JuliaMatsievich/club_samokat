@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "YS Text";
+  src: url("https://yastatic.net/s3/home/fonts/ys/4/text-black.woff");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "YS Text";
+  src: url("https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "YS Text";
+  src: url("https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff ");
+  font-style: normal;
+  font-weight: 400;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "YS Text";
+  font-style: normal;
+  font-weight: 400;
+  color: #21201f;
+  font-size: 24px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.center {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 36px;
+  background: #ffde40;
+  box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+  display: flex;
+  padding: 24px 48px;
+  align-items: center;
+  line-height: 22px; /* 91.667% */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+}
+
+.header {
+  height: 804px;
+  background: url("../img/fon-gradient-white.png"), url("../img/fon-gradient-color.png");
+  padding: 116.94px 74.63px 124.94px 262px;
+  display: flex;
+}
+.header__content {
+  width: 420px;
+  position: relative;
+  z-index: 1;
+}
+.header__logo {
+  padding-bottom: 55px;
+}
+.header__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 100%; /* 72px */
+  letter-spacing: -1.44px;
+  padding-bottom: 32px;
+}
+.header__subtitle {
+  line-height: 130%; /* 31.2px */
+  padding-bottom: 33px;
+  letter-spacing: 0.24px;
+  position: relative;
+}
+.header__new-price {
+  line-height: 120%; /* 28.8px */
+  border-radius: 500px;
+  background: radial-gradient(141.42% 141.42% at 100% 0%, #e0b8ff 0%, #b6b9ff 100%);
+  padding: 2px 11px;
+}
+.header__old-price {
+  margin-left: -40px;
+  z-index: -1;
+  margin-top: -5px;
+  color: #808080;
+  padding: 9px 12px 11px 54px;
+  text-decoration: line-through;
+  font-size: 16px;
+  line-height: 120%; /* 19.2px */
+  width: 115px;
+  border-radius: 500px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%), radial-gradient(141.42% 141.42% at 100% 0%, #e0b8ff 0%, #b6b9ff 100%);
+  position: absolute;
+}
+.header__image {
+  position: relative;
+  margin-left: -135px;
+  margin-top: -82px;
+  z-index: 0;
+}
+.header__image::before {
+  content: url("../img/Ellipse.png");
+  width: 657.8px;
+  height: 401.903px;
+  left: 15px;
+  top: 44px;
+  position: absolute;
+  border-radius: 657.8px;
+  opacity: 0.4;
+  background: #8241ef;
+  filter: blur(100px);
+  z-index: -1;
+}
+.header__image::after {
+  content: url("../img/lettering-ring.png");
+  width: 195.344px;
+  height: 195.344px;
+  left: 227px;
+  top: 350px;
+  position: absolute;
+  filter: brightness(0);
+}
