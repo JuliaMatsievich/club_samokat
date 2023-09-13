@@ -72,6 +72,18 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
 }
 
+.block-title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 100%; /* 48px */
+  letter-spacing: -0.96px;
+}
+
+.block-text {
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.25px;
+}
+
 .header {
   height: 801px;
   background: url("../img/fon-gradient-white.png"), url("../img/fon-gradient-color.png");
@@ -246,21 +258,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .abonement {
   display: flex;
+  margin-bottom: 101px;
 }
 .abonement__content {
   width: 486px;
   padding-left: 68px;
 }
 .abonement__title {
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 100%; /* 48px */
-  letter-spacing: -0.96px;
   padding-bottom: 35px;
-}
-.abonement__text {
-  line-height: 120%; /* 28.8px */
-  letter-spacing: 0.2px;
 }
 .abonement__image {
   padding-left: 127px;
@@ -285,4 +290,34 @@ h1, h2, h3, h4, h5, h6 {
   left: 52px;
   top: 64px;
   z-index: 1;
+}
+
+.enjoy {
+  display: flex;
+}
+.enjoy__image {
+  padding-left: 138px;
+  margin-top: -65px;
+  position: relative;
+  z-index: 0;
+}
+.enjoy__image::before {
+  content: url("../img/Ellipse-enjoy.png");
+  position: absolute;
+  width: 423.941px;
+  height: 423.941px;
+  left: -5px;
+  top: -93px;
+  z-index: -1;
+}
+.enjoy__content {
+  padding-left: 58px;
+  padding-right: 230px;
+}
+.enjoy__title {
+  padding-bottom: 35px;
+}
+.enjoy__text {
+  width: 419px;
+  padding-bottom: 40px;
 }

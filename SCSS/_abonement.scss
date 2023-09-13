@@ -2,21 +2,16 @@
 	// padding-left: 260px;
 	// padding-right: 321px;
 	display: flex;
+	margin-bottom: 101px;
 
 	&__content {
 		width: 486px;
 		padding-left: 68px;
 	}
 	&__title {
-		font-size: 48px;
-		font-weight: 900;
-		line-height: 100%; /* 48px */
-		letter-spacing: -0.96px;
 		padding-bottom: 35px;
 	}
 	&__text {
-		line-height: 120%; /* 28.8px */
-		letter-spacing: 0.2px;
 	}
 	&__image {
 		padding-left: 127px;

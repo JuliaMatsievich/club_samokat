@@ -71,7 +71,19 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: 400;}
 	border: none;
 }
 
+.block-title {
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 100%; /* 48px */
+	letter-spacing: -0.96px;
+}
+.block-text {
+	line-height: 120%; /* 28.8px */
+	letter-spacing: 0.25px;
+}
+
 @import "header";
 @import "adventages";
 @import "events";
 @import "abonement";
+@import "enjoy";

@@ -1,0 +1,31 @@
+.enjoy {
+	display: flex;
+	&__image {
+		padding-left: 138px;
+		margin-top: -65px;
+		position: relative;
+		z-index: 0;
+		&::before{
+			content: url("../img/Ellipse-enjoy.png");
+			position: absolute;
+			width: 423.941px;
+			height: 423.941px;
+			left: -5px;
+			top: -93px;
+			z-index: -1;
+		}
+	}
+	&__content {
+		padding-left: 58px;
+		padding-right: 230px;
+	}
+	&__title {
+		padding-bottom: 35px;
+	}
+	&__text {
+		width: 419px;
+		padding-bottom: 40px;
+
+	}
+}
+
