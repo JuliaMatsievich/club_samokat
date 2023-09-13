@@ -1,0 +1,22 @@
+.footer {
+	width: 906px;
+	padding-bottom: 128px;
+
+	&__text {
+		color: #c5c5c5;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 120%; /* 15.6px */
+	}
+	&__link {
+		text-decoration: underline;
+		color: #c5c5c5;
+		&:hover {
+			color: #7e7d7d;
+		}
+		&:visited {
+			color: #7e7d7d;
+
+		}
+	}
+}

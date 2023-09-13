@@ -294,6 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .enjoy {
   display: flex;
+  margin-bottom: 108px;
 }
 .enjoy__image {
   padding-left: 138px;
@@ -320,4 +321,25 @@ h1, h2, h3, h4, h5, h6 {
 .enjoy__text {
   width: 419px;
   padding-bottom: 40px;
+}
+
+.footer {
+  width: 906px;
+  padding-bottom: 128px;
+}
+.footer__text {
+  color: #c5c5c5;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 120%; /* 15.6px */
+}
+.footer__link {
+  text-decoration: underline;
+  color: #c5c5c5;
+}
+.footer__link:hover {
+  color: #7e7d7d;
+}
+.footer__link:visited {
+  color: #7e7d7d;
 }
